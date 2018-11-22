@@ -1,7 +1,23 @@
+// Museo-Sans-Rounded FOnt
+@import url("https://use.typekit.net/nmz1nsx.css");
+
 // Basic Styling
 .App {
-    color: #1d1d1d;
+  h1,h2,h3,h4,h5,h6 {
+    font-family: museo-sans-rounded, sans-serif;
+		font-weight: 500;
+		font-style: normal;
+  }
+  a, p, span {
+    font-family: museo-sans-rounded, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+	}
+	span {
+		font-weight: 300;
+	}
 }
 
 // Includes
+
 // Vars
