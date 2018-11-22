@@ -1,23 +1,33 @@
-// Museo-Sans-Rounded FOnt
-@import url("https://use.typekit.net/nmz1nsx.css");
-
-// Basic Styling
-.App {
-  h1,h2,h3,h4,h5,h6 {
-    font-family: museo-sans-rounded, sans-serif;
-		font-weight: 500;
-		font-style: normal;
-  }
-  a, p, span {
-    font-family: museo-sans-rounded, sans-serif;
-    font-weight: 500;
-    font-style: normal;
-	}
-	span {
-		font-weight: 300;
-	}
-}
-
-// Includes
+// Imports
+@import url("https://use.typekit.net/nmz1nsx.css"); // main font
 
 // Vars
+// @Font
+$font-stack: museo-sans-rounded, sans-serif;
+$thick-font: 500;
+$medium-font: 300;
+$thin-font: 100;
+// @Colors
+$white: #ffffff;
+$dark-grey: #181818;
+$medium-grey: #626262;
+$light-grey: #b1b1b1;
+$inactive-link: #565656;
+$dark-section: #262626;
+
+
+// Basic Styling
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font-stack;
+	font-weight: $thick-font;
+	color: $dark-grey;
+}
+a, p, span {
+	font-family: $font-stack;
+	font-weight: $thick-font;
+	color: $medium-grey;
+}
+span {
+	font-weight: $medium-font;
+	color: $light-grey;
+}
