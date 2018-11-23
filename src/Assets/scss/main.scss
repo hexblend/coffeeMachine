@@ -1,33 +1,11 @@
-// Imports
-@import url("https://use.typekit.net/nmz1nsx.css"); // main font
+// IMPORT ALL FILES (besides reset.scss, which is imported inside index.js)
+// abstracts
+@import 'abstracts/vars';
 
-// Vars
-// @Font
-$font-stack: museo-sans-rounded, sans-serif;
-$thick-font: 500;
-$medium-font: 300;
-$thin-font: 100;
-// @Colors
-$white: #ffffff;
-$dark-grey: #181818;
-$medium-grey: #626262;
-$light-grey: #b1b1b1;
-$inactive-link: #565656;
-$dark-section: #262626;
+// base
+@import 'base/typography';
+@import 'base/grid';
 
-
-// Basic Styling
-h1,h2,h3,h4,h5,h6 {
-	font-family: $font-stack;
-	font-weight: $thick-font;
-	color: $dark-grey;
-}
-a, p, span {
-	font-family: $font-stack;
-	font-weight: $thick-font;
-	color: $medium-grey;
-}
-span {
-	font-weight: $medium-font;
-	color: $light-grey;
-}
+// components
+@import 'components/layout/navbar';
+@import 'components/layout/footer';

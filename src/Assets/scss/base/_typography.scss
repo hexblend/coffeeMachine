@@ -1,0 +1,15 @@
+// Typography
+h1,h2,h3,h4,h5,h6 {
+	font-family: $font-stack;
+	font-weight: $thick-font;
+	color: $dark-grey;
+}
+a, p, span {
+	font-family: $font-stack;
+	font-weight: $thick-font;
+	color: $medium-grey;
+}
+span {
+	font-weight: $medium-font;
+	color: $light-grey;
+}

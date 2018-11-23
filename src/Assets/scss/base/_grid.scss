@@ -1,0 +1,183 @@
+// Custom 12 Columns Grid System
+
+$col-1-width: 100% / 12;
+
+.wrapper {
+  display: table;
+  width: 100%;
+}
+.col-1 {
+  width: $col-1-width;
+}
+.offset-1{
+  margin-left: $col-1-width;
+}
+.col-2 {
+  width: $col-1-width * 2;
+}
+.offset-2 {
+  margin-left: $col-1-width * 2;
+}
+.col-3 { 
+  width: $col-1-width * 3;
+}
+.offset-3 {
+  margin-left: $col-1-width * 3;
+}
+.col-4 {
+  width: $col-1-width * 4;
+}
+.offset-4 {
+  margin-left: $col-1-width * 4;
+}
+.col-5{
+  width: $col-1-width * 5;
+}
+.offset-5 {
+  margin-left: $col-1-width * 5;
+}
+.col-6 {
+  width: $col-1-width * 6;
+}
+.offset-6 {
+  margin-left: $col-1-width * 6;
+}
+.col-7 {
+  width: $col-1-width * 7;
+}
+.offset-7 {
+  margin-left: $col-1-width * 7;
+}
+.col-8 {
+  width: $col-1-width * 8;
+}
+.offset-8 {
+  margin-left: $col-1-width * 8;
+}
+.col-9 {
+  width: $col-1-width * 9;
+}
+.offset-9 {
+  margin-left: $col-1-width * 9;
+}
+.col-10 {
+  width: $col-1-width * 10;
+}
+.offset-10 {
+  margin-left: $col-1-width * 10;
+}
+.col-11 {
+width: $col-1-width * 10; 
+}
+.offset-11 {
+  margin-left: $col-1-width * 11;
+}
+.col-12 {
+  width: $col-1-width * 12;
+}  
+
+[class*='col-'] {
+  float: left;
+  padding-right: 10px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.row:before, 
+.row:after {
+  content:"";
+  clear:both;
+} 
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+@media(max-width: 992px){
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .row {
+    width: 100%;
+    clear: both;
+  }
+  .col-4 {
+    width: 50%;
+  }
+  .col-4:last-child{
+    margin-left: 25%;
+  }
+  .col-3 {
+    width: 50%;
+  }
+  .col-2 {
+    width: 25%;
+  }
+  .col-2:nth-child(5){
+    margin-left: 25%;
+  }
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12{
+    width: 100%;
+  }
+  .offset-1,
+  .offset-2,
+  .offset-3,
+  .offset-4,
+  .offset-5,
+  .offset-6,
+  .offset-7,
+  .offset-8,
+  .offset-9,
+  .offset-10,
+  .offset-11,
+  .offset-12{
+    margin-left: 0%;
+  }
+  .row{
+    display: block;
+    margin: 0 auto;
+  }
+  
+}
+@media(max-width: 768px) {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: 100%;
+  }
+  .col-2:nth-child(5),
+  .col-4:last-child {
+    margin-left: 0%;
+  }
+}
