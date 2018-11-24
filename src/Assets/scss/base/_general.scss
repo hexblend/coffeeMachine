@@ -1,0 +1,9 @@
+section {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    text-align: center;
+    &:nth-child(even){
+        background: $light-grey;
+    }
+}
