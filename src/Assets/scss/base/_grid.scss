@@ -87,9 +87,8 @@ width: $col-1-width * 10;
 
 .row:before, 
 .row:after {
-  content:"";
-  clear:both;
-  display: inline-block;
+  content: "";
+  clear: both;
 } 
 
 .col-1,
@@ -107,6 +106,7 @@ width: $col-1-width * 10;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   margin-bottom: 20px;
 }
 
