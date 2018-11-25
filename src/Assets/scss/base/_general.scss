@@ -3,7 +3,7 @@ section {
     min-height: 100vh;
     height: auto;
     text-align: center;
-    &:nth-child(even){
+    &:nth-child(odd){
         background: $light-grey;
     }
 }
