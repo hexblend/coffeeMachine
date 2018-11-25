@@ -89,6 +89,7 @@ width: $col-1-width * 10;
 .row:after {
   content:"";
   clear:both;
+  display: inline-block;
 } 
 
 .col-1,
