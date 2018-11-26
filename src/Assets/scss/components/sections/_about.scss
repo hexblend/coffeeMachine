@@ -1,0 +1,25 @@
+.about-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 0vh;
+	height: auto !important;
+	padding: 60px 0;
+	.vertical-center {
+		.col-7 {
+			padding-right: 100px;
+			h2 {
+				font-weight: $medium-font;
+				display: block;
+				width: 100%;
+				text-align: left;
+				margin-bottom: 0;
+				margin-top: 50px;
+			}
+			p {
+				text-align: left;
+				margin-bottom: 0;
+			}
+		}
+	}
+}
