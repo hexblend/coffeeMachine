@@ -1,6 +1,8 @@
 .landing-section {
-  background: url('../img/landing_background.jpg') no-repeat center center !important;
-  background-size: cover;
+  background-image: url('../img/landing_background.jpg') !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
   .container {
     height: 100vh;
     .row .middle-elements {
