@@ -4,21 +4,38 @@
 	justify-content: center;
 	min-height: 0vh;
 	height: auto !important;
-	padding: 60px 0;
+	padding: 60px 10px;
 	.vertical-center {
+		@media(max-width: $phone){
+			width: 95vw;
+		}
 		.col-7 {
 			padding-right: 100px;
+			@media(max-width: $tablet){
+				padding: 0;
+			}
 			h2 {
 				font-weight: $medium-font;
 				display: block;
 				width: 100%;
 				text-align: left;
 				margin-bottom: 0;
-				margin-top: 50px;
+				margin-top: 0px;
+				@media(max-width: $tablet){
+					text-align: center;
+				}
 			}
 			p {
 				text-align: left;
 				margin-bottom: 0;
+				@media(max-width: $tablet){
+					text-align: center;
+				}
+			}
+		}
+		.col-5 {
+			@media (max-width: $tablet){
+				width: 100%;
 			}
 		}
 	}
