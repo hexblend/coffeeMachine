@@ -19,6 +19,9 @@
 				@media(max-width: $tablet){
 					text-align: center;
 				}
+				@media(min-width: 1600px){
+					margin-top: 50px;
+				}
 			}
 			p {
 				text-align: left;
