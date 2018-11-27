@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+// Style File
 import './Assets/scss/main.scss';
-
+// Components
 import Landing from './Components/Sections/Landing';
 import About from './Components/Sections/About';
 import Features from './Components/Sections/Features';
@@ -11,6 +12,7 @@ import Buy from './Components/Sections/Buy';
 class App extends Component {
   render() {
     return (
+      // Display all components 
       <div className="App">
         <Landing />
         <About />
