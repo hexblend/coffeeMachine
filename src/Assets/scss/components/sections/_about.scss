@@ -1,9 +1,4 @@
 .about-section {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 0vh;
-	height: auto !important;
 	padding: 60px 10px;
 	.vertical-center {
 		@media(max-width: $phone){

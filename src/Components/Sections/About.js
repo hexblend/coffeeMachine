@@ -9,7 +9,7 @@ const About = () => {
         <div className="row">
           <div className="vertical-center">
             <div className="col-5">
-              <img src={previewPic} alt="Coffee Machine Picture 1" />
+              <img src={previewPic} alt="Coffee Machine 1" />
             </div>
             <div className="col-7">
               <h2>Description</h2>
