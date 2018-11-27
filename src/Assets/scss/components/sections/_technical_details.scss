@@ -3,6 +3,9 @@
   .container .row {
     .col-6 {
       padding: 0 7vw;
+      @media(max-width: $tablet){
+        padding: 0;
+      }
       // Left Side
       &:nth-child(1){
         p {
