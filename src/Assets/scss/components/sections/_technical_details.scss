@@ -1,6 +1,21 @@
 .technical_details-section {
   padding: 50px 0;
-  .container .row {
+  .container 
+    .mobile-title {
+      display: none;
+      @media(max-width: $phone-landscape){
+        display: block;
+        margin-bottom: 2em;
+      }
+    }
+    .row {
+    @media(max-width: $phone-landscape){
+      display: flex;
+      flex-direction: column;
+      .mobile-title{
+        display: block;
+      }
+    }
     .col-6 {
       padding: 0 7vw;
       @media(max-width: $tablet){
@@ -15,15 +30,28 @@
         span{
           color: $medium-grey;
         }
+        @media(max-width: $phone-landscape){
+          h2 {
+            display: none;
+          }
+          order: 2;
+        }
       }
       // Right Side
       &:nth-child(2){
         height: 500px;
         line-height: 500px;
+        @media(max-width: $phone-landscape){
+          height: auto;
+          line-height: auto;
+        }
         img {
           width: 100%;
           height: auto;
           vertical-align: middle;
+          @media(max-width: $phone-landscape){
+            max-width: 80%;
+          }
         }
       }
     }

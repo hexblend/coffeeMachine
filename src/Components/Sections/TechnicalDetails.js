@@ -5,6 +5,7 @@ const TechnicalDetails = () => {
   return (
     <section className="technical_details-section" id="details">
       <div className="container">
+        <h2 className="mobile-title">Technical Details</h2>
         <div className="row">
           <div className="col-6">
             <h2>Technical Details</h2>
