@@ -3,6 +3,12 @@
   background-repeat: no-repeat !important;
   background-position: center top-right !important;
   background-size: cover !important;
+  @media(max-width: $tablet){
+    background-image: url('../img/whats_included_machine_mobile.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center top-right !important;
+    background-size: cover !important;
+  }
   .container {
     h2 {
       color: $white;
@@ -15,12 +21,26 @@
       display: inline-block;
       text-align: left;
       padding: 0 0 0 15vw;
+      @media(max-width: $tablet){
+        text-align: center;
+        padding: 0;
+      }
+      @media(max-width: $phone-landscape){
+        padding: 0 10px;
+      }
       &:nth-child(1){
         margin-top: 50px;
         margin-bottom: 70px;
+        @media(max-width: $phone-landscape){
+          margin-top: 0px;
+          margin-bottom: 50px;
+        }
       }
       &:nth-child(2){
         margin-bottom: 100px;
+        @media(max-width: $phone-landscape){
+          margin-bottom: 60px;
+        }
       }
       h4 {
         color: $white;
