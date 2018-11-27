@@ -5,8 +5,8 @@ const Features = () => {
   return (
     <section className="features-section" id="features">
       <div className="container">
+        <h2>Top Features</h2>
         <div className="row">
-          <h2>Top Features</h2>
           <div className="col-4">
             <h4>Powerful</h4>
             <p>Espresso machine with max. 1,470 watts of power and 15 bar of pressure.</p>
@@ -16,7 +16,7 @@ const Features = () => {
             <p>Steam nozzle for frothing milk and preparing hot drinks.</p>
           </div>
           <div className="col-4">
-            <img src={machinePic} alt="Coffee Machine Picture 2"/>
+            <img src={machinePic} alt="Coffee Machine 2"/>
           </div>
           <div className="col-4">
             <h4>Small, yet powerful package</h4>
