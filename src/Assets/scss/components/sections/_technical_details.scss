@@ -1,0 +1,28 @@
+.technical_details-section {
+  padding: 50px 0;
+  .container .row {
+    .col-6 {
+      padding: 0 7vw;
+      // Left Side
+      &:nth-child(1){
+        p {
+          color: $dark-grey;
+          margin: 10px 0;
+        }
+        span{
+          color: $medium-grey;
+        }
+      }
+      // Right Side
+      &:nth-child(2){
+        height: 500px;
+        line-height: 500px;
+        img {
+          width: 100%;
+          height: auto;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
