@@ -1,0 +1,54 @@
+.buy-section {
+	padding: 40px 0;
+	@media(max-width: $phone-landscape){
+		padding: 20px 0;
+	}
+	.container {
+		@media(max-width: $phone-landscape){
+			padding: 0 20px;
+		}	
+		h2 {
+			font-weight: $medium-font;
+			color: $dark-grey;
+			@media(max-width: $phone-landscape){
+				margin-bottom: 0;
+			}
+		}
+		.row {
+			width: 100vw;
+			.col-6{
+				@media(max-width: $phone-landscape){
+					margin: 0;
+				}
+				// Left Buttons
+				&:nth-child(1){
+					margin-top: 60px;
+					a{  
+						// First Button
+						&:nth-child(1){
+							margin-bottom: 30px;
+						}
+						img {
+							width: 90%;
+							heigh: auto;
+							transition: .2s ease-in-out;
+							&:hover{
+								width: 100%;
+							}
+						}
+					}
+				}
+				// Right Image
+				&:nth-child(2){
+						img {
+							max-width: 80%;
+							height: auto;
+						}
+						@media(max-width: $phone-landscape){
+							margin-top: 10px;
+						}
+				}
+			}
+		}
+	}
+}
