@@ -1,11 +1,6 @@
 .features-section {
   background: linear-gradient(to bottom, #272727 0%,#1a1a1a 100%) !important;
-  padding: 100px 0;
-  display: flex;
-	align-items: center;
-	justify-content: center;
-	min-height: 0vh;
-	height: auto !important;
+  padding: 80px 40px 40px 40px;
   h2 {
     color: $white;
     margin-bottom: 30px;
@@ -28,6 +23,9 @@
       width: 100%;
       margin-top: 0;
       margin-bottom: 50px;
+    }
+    img{
+      padding-left: 10px;
     }
     &:nth-child(3){
       padding-top: 0;

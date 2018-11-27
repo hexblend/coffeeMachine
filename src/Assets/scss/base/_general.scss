@@ -1,7 +1,10 @@
 section {
     width: 100%;
-    min-height: 100vh;
-    height: auto;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 0vh;
+	height: auto;
     text-align: center;
     &:nth-child(odd){
         background: $light-grey;
