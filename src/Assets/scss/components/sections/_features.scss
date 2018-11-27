@@ -4,6 +4,9 @@
   @media(max-width: $tablet) {
     padding: 80px 0 40px 0;
   }
+  @media(max-width: $phone-landscape){
+    padding: 40px 0 0 0;
+  }
   h2 {
     color: $white;
     margin-bottom: 30px;
@@ -15,10 +18,14 @@
       flex-wrap: wrap;
     }
   }
+  // Col-4 Divs
   .col-4 {
     padding-top: 40px;
     @media(max-width: $tablet){
       padding: 40px 40px 0 40px;
+    }
+    @media(max-width: $phone-landscape){
+      padding: 0;
     }
     h4 {
       color: $white;
@@ -39,7 +46,7 @@
     img{
       padding-left: 10px;
     }
-    // Image
+    // Image Container
     &:nth-child(2){
       padding-top: 0;
       @media(max-width: $tablet){
@@ -47,14 +54,25 @@
         width: 100%;
         margin: 0;
       }
+      @media(max-width: $phone-landscape){
+        margin-bottom: 20px;
+      }
     }
-    // Left Text
+    // Left Text Container
     &:nth-child(1){
       @media(max-width: $tablet){
         order: 2;
       }
+      @media(max-width: $phone-landscape){
+        margin-bottom: 0;
+      }
+      h4,p{
+        @media(max-width: $phone-landscape){
+          text-align: center;
+        }
+      }
     }
-    // Right Text
+    // Right Text Container
     &:nth-child(3){
       @media(max-width: $tablet){
         margin-left: 0;
@@ -63,6 +81,9 @@
       }
       h4,p{
         text-align: right;
+        @media(max-width: $phone-landscape){
+          text-align: center;
+        }
       }
     }
   }
