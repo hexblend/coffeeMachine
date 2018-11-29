@@ -1,11 +1,13 @@
 import React from 'react';
 import logo from '../../Assets/img/logo.png';
+import Navbar from '../Layout/Navbar';
 
 const Landing = () => {
   return (
     <section className="landing-section" id="landing">
       <div className="container">
         <div className="row">
+          <Navbar />
           <div className="col-12 middle-elements">
             <div className="logo">
               <img src={logo} alt="Company logo" />
