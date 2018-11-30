@@ -1,3 +1,4 @@
+// Desktop Navigation
 nav {
 	width: 100vw;
 	height: 60px;
@@ -7,13 +8,15 @@ nav {
 	right: 0;
 	z-index: 1;
 	transition: .2s ease-in-out;
-	border-bottom: 1px solid darken($inactive-link, 5%);
-
 	.col-12 {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 		padding-left: 100px;
+		.open-slide,
+		.btn-close {
+			display: none;
+		}
 		ul {
 			list-style: none;
 			margin-right: 100px;
@@ -41,6 +44,61 @@ nav {
 		}
 		.logo {
 			margin-top: 5px;
+		}
+	}
+}
+
+// Tablet / Mobile Navigation
+@media(max-width: $tablet){
+	nav {
+		height: calc(50px + 300px + 7px) !important; // Initial nav + links + borders
+		overflow-x: hidden;
+		transition: none;
+		top: 0;
+		background: #000 !important;
+		.col-12{
+			padding-left: 0;
+			flex-direction: column;
+			.mobile-visible {
+				width: 100%;
+				padding: 10px 30px;
+				display: flex;
+				justify-content: space-between;
+				@media(max-width: $phone-landscape){
+					padding: 10 20px;
+				}
+				.open-slide{
+					display: block;
+					margin-top: 5px;
+					a {
+						&:hover,
+						&:focus {
+							color: $white;
+							cursor: pointer;
+						}
+					}
+				}
+			}
+			.links {
+				margin-right: 0;
+				li {
+					display: block;
+					width: 100vw;
+					margin-right: 0;
+					background: $dark-grey;
+					margin: 0;
+					border: 1px solid darken($medium-grey, 20%);
+					border-bottom: 0;
+					&:last-child{
+						border-bottom: 1px solid darken($medium-grey, 20%);
+					}
+					a {
+						display: block;
+						line-height: 50px;
+						text-transform: initial;
+					}
+				}
+			}
 		}
 	}
 }

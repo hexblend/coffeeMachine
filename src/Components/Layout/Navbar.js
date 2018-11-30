@@ -37,8 +37,13 @@ class Navbar extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-12">
-                  <a href="/" className="logo"><img src={logo} alt="logo" /></a>
-                  <ul>
+									<div className="mobile-visible">
+										<span class="open-slide">
+											<a href={void(0)}><i className="fas fa-bars"></i></a>
+										</span>
+										<a href="/" className="logo"><img src={logo} alt="logo" /></a>
+									</div>
+                  <ul className="links">
                     <li><a href="#landing">Home</a></li>
                     <li><a href="#about">Description</a></li>
                     <li><a href="#features">Top features</a></li>
@@ -46,9 +51,9 @@ class Navbar extends Component {
                     <li><a href="#included">What's included</a></li>
                     <li><a href="#buy">Buy</a></li>
                   </ul>
-                </div>
-              </div>
-            </div>
+                </div> {/* end of .col-12 */}
+							</div> {/* end of .row */}
+						</div> {/* end of .container */}
           </nav>
         </ScrollspyNav>
       </div>
