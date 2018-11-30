@@ -21,28 +21,30 @@ class Navbar extends Component {
     return (
       <div>
         <ScrollspyNav
-          scrollTargetIds={["about", "features", "details", "included", "buy"]}
+          scrollTargetIds={["landing", "about", "features", "details", "included", "buy"]}
           activeNavClass="is-active"
           scrollDuration="650"
           headerBackground="true"
         >
           {/* ES6 Styling Depending on the navbar position */}
           <nav style={this.state.isTop ? { background: 'transparent' } : 
-                    { background: '#181818',
+                    { background: '#1c1c1c',
                       position: 'fixed',
-                      top: 0
+                      top: 0,
+                      height: 45,
+                      border: 'none'
                     }}>
             <div className="container">
               <div className="row">
                 <div className="col-12">
                   <a href="/" className="logo"><img src={logo} alt="logo" /></a>
                   <ul>
-                    <li><a href="/"><span>Home</span></a></li>
-                    <li><a href="#about"><span>Description</span></a></li>
-                    <li><a href="#features"><span>Top features</span></a></li>
-                    <li><a href="#details"><span>Technical details</span></a></li>
-                    <li><a href="#included"><span>What's included</span></a></li>
-                    <li><a href="#buy"><span>Buy</span></a></li>
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#about">Description</a></li>
+                    <li><a href="#features">Top features</a></li>
+                    <li><a href="#details">Technical details</a></li>
+                    <li><a href="#included">What's included</a></li>
+                    <li><a href="#buy">Buy</a></li>
                   </ul>
                 </div>
               </div>
