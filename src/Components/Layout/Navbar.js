@@ -3,10 +3,10 @@ import ScrollspyNav from 'react-scrollspy-nav';
 import logo from '../../Assets/img/logo-nav.png';
 
 class Navbar extends Component {
-  // Check if user has started to scroll
-  state = {
-    isTop: true
-  };
+	state = {
+		isTop: true,
+		isOpened: false
+	};
 
   componentDidMount(){
     document.addEventListener('scroll', () =>{
@@ -14,8 +14,14 @@ class Navbar extends Component {
       if(isTop !== this.state.isTop) {
         this.setState({isTop})
       }
-    });
-  }
+		});
+	}
+
+	toggleNav = () => {
+		this.setState({
+			isOpened: !this.state.isOpened
+		})
+	}
 
   render() {
     return (
@@ -26,24 +32,27 @@ class Navbar extends Component {
           scrollDuration="650"
           headerBackground="true"
         >
-          {/* ES6 Styling Depending on the navbar position */}
-          <nav style={this.state.isTop ? { background: 'transparent' } : 
-                    { background: '#1c1c1c',
-                      position: 'fixed',
-                      top: 0,
-                      height: 45,
-                      border: 'none'
-                    }}>
+					<nav 
+						style={this.state.isTop ? 
+									{background: 'transparent'} : 
+									{background: '#1c1c1c', 
+									 position: 'fixed', 
+									 top: 0, 
+									 height: 45,
+									 border: 'none'
+									}}
+						className={this.state.isOpened ? 'mobile-nav-open' : ''}>
+
             <div className="container">
               <div className="row">
                 <div className="col-12">
 									<div className="mobile-visible">
-										<span class="open-slide">
-											<a href={void(0)}><i className="fas fa-bars"></i></a>
+										<span className="open-slide" onClick={this.toggleNav}>
+											<i className="fas fa-bars"></i>
 										</span>
 										<a href="/" className="logo"><img src={logo} alt="logo" /></a>
 									</div>
-                  <ul className="links">
+                  <ul className={this.state.isOpened ? 'links mobile-links-visible' : 'links'}>
                     <li><a href="#landing">Home</a></li>
                     <li><a href="#about">Description</a></li>
                     <li><a href="#features">Top features</a></li>

@@ -51,9 +51,8 @@ nav {
 // Tablet / Mobile Navigation
 @media(max-width: $tablet){
 	nav {
-		height: calc(50px + 300px + 7px) !important; // Initial nav + links + borders
+		height: 50px !important; // Initial nav + links + borders
 		overflow-x: hidden;
-		transition: none;
 		top: 0;
 		background: #000 !important;
 		.col-12{
@@ -70,17 +69,17 @@ nav {
 				.open-slide{
 					display: block;
 					margin-top: 5px;
-					a {
-						&:hover,
-						&:focus {
-							color: $white;
-							cursor: pointer;
-						}
+					&:hover,
+					&:focus {
+						color: $white;
+						cursor: pointer;
 					}
 				}
 			}
 			.links {
 				margin-right: 0;
+				opacity: 0;
+				transition: .2s ease-in-out;
 				li {
 					display: block;
 					width: 100vw;
@@ -101,4 +100,13 @@ nav {
 			}
 		}
 	}
+}
+
+.mobile-nav-open{
+	@media(max-width: $tablet){
+		height: calc(50px + 300px + 7px) !important; // Initial nav + y: block;
+	}
+}
+.mobile-links-visible {
+	opacity: 1 !important;
 }
