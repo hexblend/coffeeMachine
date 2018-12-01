@@ -52,7 +52,6 @@ nav {
 @media(max-width: $tablet){
 	nav {
 		height: 50px !important; // Initial nav + links + borders
-		overflow-x: hidden;
 		top: 0;
 		background: #000 !important;
 		.col-12{
@@ -60,11 +59,11 @@ nav {
 			flex-direction: column;
 			.mobile-visible {
 				width: 100%;
-				padding: 10px 30px;
+				padding: 10px 50px 10px 30px;
 				display: flex;
 				justify-content: space-between;
 				@media(max-width: $phone-landscape){
-					padding: 10 20px;
+					padding: 10px 20px;
 				}
 				.open-slide{
 					display: block;
