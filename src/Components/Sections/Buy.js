@@ -19,7 +19,7 @@ const Buy = () => {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Buy;

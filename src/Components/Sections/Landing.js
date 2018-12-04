@@ -14,7 +14,7 @@ const Landing = () => {
               <h1>Passionata 20</h1>
             </div>
             <h2>Passion showed in every coffee.</h2>
-            <a href="/#about" className="transparent-button">Explore</a>
+            <a href="#about" className="transparent-button">Explore</a>
           </div> {/* end of .col-12 */}
         </div> {/* end of .row */}
         <span className="arrow"><i className="fas fa-caret-down"></i></span>
