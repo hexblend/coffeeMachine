@@ -29,11 +29,12 @@
 							margin-bottom: 30px;
 						}
 						img {
-							width: 90%;
+							width: 100%;
 							heigh: auto;
 							transition: .2s ease-in-out;
+							position: relative;
 							&:hover{
-								width: 100%;
+								transform: scale(1.1);
 							}
 						}
 					}
@@ -41,8 +42,9 @@
 				// Right Image
 				&:nth-child(2){
 						img {
-							max-width: 80%;
+							max-width: 81%;
 							height: auto;
+							position: relative;
 						}
 						@media(max-width: $phone-landscape){
 							margin-top: 10px;
