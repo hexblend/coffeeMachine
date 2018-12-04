@@ -55,7 +55,7 @@ class Navbar extends Component {
 										<span className="open-slide" onClick={this.toggleNav}>
 											<i className="fas fa-bars"></i>
 										</span>
-										<a href="/" className="logo"><img src={logo} alt="logo" /></a>
+										<a href="#landing" className="logo"><img src={logo} alt="logo" /></a>
 									</div>
 									{/* If user clicked the nav button toggle class .mobile-links-visible */}
                   <ul className={this.state.isOpened ? 'links mobile-links-visible' : 'links'}>

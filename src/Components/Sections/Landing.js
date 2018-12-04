@@ -1,8 +1,11 @@
+// COmponents
 import React from 'react';
 import logo from '../../Assets/img/logo.png';
 import Navbar from '../Layout/Navbar';
 // Reveal Animation
 import Zoom from 'react-reveal/Zoom';
+// Smooth scroll
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Landing = () => {
   return (
@@ -18,7 +21,7 @@ const Landing = () => {
                 </div>
                 <h2>Passion showed in every coffee.</h2>
               </Zoom>
-              <a href="#about" className="transparent-button">Explore</a>
+              <AnchorLink href='#about' className="transparent-button">Explore</AnchorLink>
             </div> {/* end of .col-12 */}
           </div> {/* end of .row */}
           <span className="arrow"><i className="fas fa-caret-down"></i></span>
