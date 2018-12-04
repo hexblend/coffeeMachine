@@ -1,0 +1,14 @@
+.footer {
+  .container{
+    .row {
+      .col-12 {
+        margin: 50px 0 0 0;
+        background: #f3f3f3;
+        p {
+          font-weight: $thin-font;
+          padding-top: 2px;
+        }
+      }
+    }
+  }
+}

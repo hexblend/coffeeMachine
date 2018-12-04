@@ -8,6 +8,7 @@ import Features from './Components/Sections/Features';
 import TechnicalDetails from './Components/Sections/TechnicalDetails';
 import WhatsIncluded from './Components/Sections/WhatsIncluded';
 import Buy from './Components/Sections/Buy';
+import Footer from './Components/Layout/Footer';
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
         <TechnicalDetails />
         <WhatsIncluded />
         <Buy />
+        <Footer />
       </div>
     );
   }
