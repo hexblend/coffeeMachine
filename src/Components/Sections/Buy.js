@@ -2,6 +2,7 @@ import React from 'react'
 import amazonBtn from '../../Assets/img/amazon-buy-btn.png';
 import storeBtn from '../../Assets/img/store-buy-btn.png';
 import machinePic from '../../Assets/img/buy_machine.jpg';
+import Fade from 'react-reveal/Fade';
 
 const Buy = () => {
   return (
@@ -14,7 +15,9 @@ const Buy = () => {
             <a href="https://www.klarstein.co.uk/Kitchen-appliances/Coffee/Coffee-machines/Passionata-20-Espresso-Machine-20-Bar-Capuccino-Milk-Foam-Silver-Silver.html?utm_source=connexity&utm_medium=psm&utm_term=10031702&utm_campaign=Kitchen%20appliances"><img src={storeBtn} alt="Official Store Buy Button" /></a>
           </div>
           <div className="col-6">
-            <img src={machinePic} alt="Coffe Machine 6"/>
+            <Fade right>
+              <img src={machinePic} alt="Coffe Machine 6" />
+            </Fade>
           </div>
         </div>
       </div>

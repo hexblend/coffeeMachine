@@ -1,5 +1,6 @@
 import React from 'react';
 import previewPic from '../../Assets/img/description_machine.jpg';
+import Fade from 'react-reveal/Fade';
 
 
 const About = () => {
@@ -8,9 +9,11 @@ const About = () => {
       <div className="container">
         <div className="row">
           <div className="vertical-center">
+            <Fade left>
             <div className="col-5">
               <img src={previewPic} alt="Coffee Machine 1" />
             </div>
+            </Fade>
             <div className="col-7">
               <h2>Description</h2>
               <p>The Klarstein Passionata 15 is an elegant espresso machine with a pronounced sense of functionality and design. With a powerful 1,470 watts of power and 15 bar pressure level, it pushes hot water through the ground coffee, unleashing its full aroma. With the Klarstein Passionata 15  ground coffee or espresso powder as well as coffee and espresso pods can be used.</p>
