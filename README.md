@@ -26,10 +26,25 @@ The **Footer** includes a copyright module which has a date function. That date 
 [https://vladb.uk/coffeeMachine](https://vladb.uk/coffeeMachine)
 
 ## Completed Test Plan
-| Task          | Completed          |
-| ------------- | ------------------ |
-| Content Cell  | :white_check_mark: |
-
+| Task                                                 | Completed          |
+| ---------------------------------------------------- | ------------------ |
+| Use **React.js** as a front-end framework            | :white_check_mark: |
+| Use **Sass** for styling (with Vars & Includes)      | :white_check_mark: |
+| Use **Styled Components** with JS/Sass               | :white_check_mark: |
+| Have >= **6 sections**                               | :white_check_mark: |
+| Layout based on a custom made **grid**               | :white_check_mark: |
+| **Responsive Grid**                                  | :white_check_mark: |
+| Work with >= **2 devices screens**                   | :white_check_mark: |
+| Easy to use **Navigation**                           | :white_check_mark: |
+| **Responsive Navigation** for mobile                 | :white_check_mark: |
+| **Trackable Links**                                  | :white_check_mark: |
+| **Responsive Typography**                            | :white_check_mark: |
+| **Responsive Images**                                | :white_check_mark: |
+| **Hover Effects** on Links                           | :white_check_mark: |
+| **Animated Content** on Reveal                       | :white_check_mark: |
+| **Real Time Date**                                   | :white_check_mark: |
+| Integrate **Github Pages** for deployment            | :white_check_mark: |
+| Deploy a **production build** for better performance | :white_check_mark: |   
 
 ### System Preparation
 If you want to use this app, you need to have installed **Node.js** on your machine.
