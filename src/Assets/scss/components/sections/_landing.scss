@@ -19,6 +19,7 @@
           font-weight: 100;
           font-size: 3.5em;
           margin-left: 10px;
+          line-height: 1em;
           display: inline-block;
           transition: .15s ease-in-out;
           @media (max-width: $phone-landscape){
@@ -31,12 +32,15 @@
         img {
           max-width: 100%;
           height: auto;
+          padding-bottom: 9px;
           transition: .15s ease-in-out;
           @media (max-width: $phone-landscape){
             width: 38%;
+            padding-bottom: 6px;
           }
           @media (max-width: $phone){
-            width: 35%;
+            width: 140px;
+            padding-bottom: 5px;
           }
         }
       }

@@ -29,12 +29,11 @@
 							margin-bottom: 30px;
 						}
 						img {
-							width: 100%;
+							width: 90%;
 							heigh: auto;
 							transition: .2s ease-in-out;
-							position: relative;
 							&:hover{
-								transform: scale(1.1);
+								width: 100%;
 							}
 						}
 					}

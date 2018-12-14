@@ -18,9 +18,9 @@ The **Footer** includes a copyright module which has a date function. That date 
 ![](./preview/desktop/1.png) | ![](./preview/mobile/1.png)
 ![](./preview/desktop/2.png) | ![](./preview/mobile/2.png)
 ![](./preview/desktop/3.png) | ![](./preview/mobile/3.png)
-![](./preview/desktop/4.png) | ![](./preview/mobile/6.png)
+![](./preview/desktop/4.png) | ![](./preview/mobile/5.png)
 ![](./preview/desktop/5.png) | ![](./preview/mobile/4.png)
-![](./preview/desktop/6.png) | ![](./preview/mobile/5.png)
+![](./preview/desktop/6.png) | ![](./preview/mobile/6.png)
 
 ### Live Preview:
 [https://vladb.uk/coffeeMachine](https://vladb.uk/coffeeMachine)
