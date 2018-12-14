@@ -1,7 +1,7 @@
 {
-  "main.css": "/coffeeMachine/static/css/main.9f14ea87.chunk.css",
-  "main.js": "/coffeeMachine/static/js/main.b7ce8170.chunk.js",
-  "main.js.map": "/coffeeMachine/static/js/main.b7ce8170.chunk.js.map",
+  "main.css": "/coffeeMachine/static/css/main.09c895f3.chunk.css",
+  "main.js": "/coffeeMachine/static/js/main.43c10bee.chunk.js",
+  "main.js.map": "/coffeeMachine/static/js/main.43c10bee.chunk.js.map",
   "static/js/1.a021895d.chunk.js": "/coffeeMachine/static/js/1.a021895d.chunk.js",
   "static/js/1.a021895d.chunk.js.map": "/coffeeMachine/static/js/1.a021895d.chunk.js.map",
   "runtime~main.js": "/coffeeMachine/static/js/runtime~main.1054ce44.js",
@@ -10,10 +10,10 @@
   "static/media/details_machine.png": "/coffeeMachine/static/media/details_machine.6f31eec1.png",
   "static/media/amazon-buy-btn.png": "/coffeeMachine/static/media/amazon-buy-btn.a246c4d9.png",
   "static/media/buy_machine.jpg": "/coffeeMachine/static/media/buy_machine.b278fd45.jpg",
-  "static/media/main.scss": "/coffeeMachine/static/media/whats_included_machine_mobile.16e79a0c.png",
+  "static/media/main.scss": "/coffeeMachine/static/media/landing_background.f83d96e9.jpg",
   "static/media/features_machine.png": "/coffeeMachine/static/media/features_machine.f1d8ed2b.png",
-  "static/css/main.9f14ea87.chunk.css.map": "/coffeeMachine/static/css/main.9f14ea87.chunk.css.map",
+  "static/css/main.09c895f3.chunk.css.map": "/coffeeMachine/static/css/main.09c895f3.chunk.css.map",
   "index.html": "/coffeeMachine/index.html",
-  "precache-manifest.dd45b6ce37598bfe56dc8e058380d613.js": "/coffeeMachine/precache-manifest.dd45b6ce37598bfe56dc8e058380d613.js",
+  "precache-manifest.227ac26d4b54958ec683f9c89cbceabb.js": "/coffeeMachine/precache-manifest.227ac26d4b54958ec683f9c89cbceabb.js",
   "service-worker.js": "/coffeeMachine/service-worker.js"
 }

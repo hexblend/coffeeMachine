@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/coffeeMachine/static/media/details_machine.6f31eec1.png"
   },
   {
-    "revision": "b7ce8170cc8d70ac7c8f",
-    "url": "/coffeeMachine/static/css/main.9f14ea87.chunk.css"
+    "revision": "43c10beeaf0b30b21eee",
+    "url": "/coffeeMachine/static/css/main.09c895f3.chunk.css"
   },
   {
     "revision": "a021895d071440c20fa1",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/coffeeMachine/static/media/features_machine.f1d8ed2b.png"
   },
   {
-    "revision": "b7ce8170cc8d70ac7c8f",
-    "url": "/coffeeMachine/static/js/main.b7ce8170.chunk.js"
+    "revision": "43c10beeaf0b30b21eee",
+    "url": "/coffeeMachine/static/js/main.43c10bee.chunk.js"
   },
   {
     "revision": "a246c4d931a8e3940e1a504ed740d628",
@@ -36,19 +36,19 @@ self.__precacheManifest = [
     "url": "/coffeeMachine/static/media/buy_machine.b278fd45.jpg"
   },
   {
-    "revision": "f83d96e93a17f0303fd5473448e95cac",
-    "url": "/coffeeMachine/static/media/landing_background.f83d96e9.jpg"
+    "revision": "16e79a0c75aaea7147a8b639c1a03618",
+    "url": "/coffeeMachine/static/media/whats_included_machine_mobile.16e79a0c.png"
   },
   {
     "revision": "7b81d046e6ef82650d1bb41a29567529",
     "url": "/coffeeMachine/static/media/whats_included_bg.7b81d046.png"
   },
   {
-    "revision": "16e79a0c75aaea7147a8b639c1a03618",
-    "url": "/coffeeMachine/static/media/whats_included_machine_mobile.16e79a0c.png"
+    "revision": "f83d96e93a17f0303fd5473448e95cac",
+    "url": "/coffeeMachine/static/media/landing_background.f83d96e9.jpg"
   },
   {
-    "revision": "a9bc5a1a00c5c6c84d4dd9b074bc4ccb",
+    "revision": "aa1253cc8fa8b630b96392e9d707086a",
     "url": "/coffeeMachine/index.html"
   }
 ];
