@@ -1,7 +1,7 @@
 {
-  "main.css": "/coffeeMachine/static/css/main.09c895f3.chunk.css",
-  "main.js": "/coffeeMachine/static/js/main.43c10bee.chunk.js",
-  "main.js.map": "/coffeeMachine/static/js/main.43c10bee.chunk.js.map",
+  "main.css": "/coffeeMachine/static/css/main.df76dc73.chunk.css",
+  "main.js": "/coffeeMachine/static/js/main.e854912f.chunk.js",
+  "main.js.map": "/coffeeMachine/static/js/main.e854912f.chunk.js.map",
   "static/js/1.a021895d.chunk.js": "/coffeeMachine/static/js/1.a021895d.chunk.js",
   "static/js/1.a021895d.chunk.js.map": "/coffeeMachine/static/js/1.a021895d.chunk.js.map",
   "runtime~main.js": "/coffeeMachine/static/js/runtime~main.1054ce44.js",
@@ -12,8 +12,8 @@
   "static/media/buy_machine.jpg": "/coffeeMachine/static/media/buy_machine.b278fd45.jpg",
   "static/media/main.scss": "/coffeeMachine/static/media/landing_background.f83d96e9.jpg",
   "static/media/features_machine.png": "/coffeeMachine/static/media/features_machine.f1d8ed2b.png",
-  "static/css/main.09c895f3.chunk.css.map": "/coffeeMachine/static/css/main.09c895f3.chunk.css.map",
+  "static/css/main.df76dc73.chunk.css.map": "/coffeeMachine/static/css/main.df76dc73.chunk.css.map",
   "index.html": "/coffeeMachine/index.html",
-  "precache-manifest.227ac26d4b54958ec683f9c89cbceabb.js": "/coffeeMachine/precache-manifest.227ac26d4b54958ec683f9c89cbceabb.js",
+  "precache-manifest.fd41b62672d6470418387211c9877b05.js": "/coffeeMachine/precache-manifest.fd41b62672d6470418387211c9877b05.js",
   "service-worker.js": "/coffeeMachine/service-worker.js"
 }
