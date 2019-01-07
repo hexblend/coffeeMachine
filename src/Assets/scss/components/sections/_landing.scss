@@ -20,6 +20,7 @@
           font-size: 3.5em;
           margin-left: 10px;
           line-height: 1em;
+          overflow: hidden;
           display: inline-block;
           transition: .15s ease-in-out;
           @media (max-width: $phone-landscape){
@@ -51,6 +52,7 @@
           margin-right: 90px;
           margin-top: 0;
           line-height: 0.8em;
+          overflow: hidden;
           transition: .15s ease-in-out;
           @media (max-width: $phone-landscape){
             font-size: 1.5em;
